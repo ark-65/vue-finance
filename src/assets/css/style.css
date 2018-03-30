@@ -1,0 +1,6 @@
+a{text-decoration: none !important;}
+.ellipsis{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.container{padding: 0 10px;width: 100%;overflow: hidden}
+.logo-container{padding: 10px;background-color: #2CA2F9;overflow: hidden;height: 51px;position: fixed;top: 0;left: 0;width: 100%;z-index: 1050}
+.head-logo{float: left;height: 100%;}
+.head-logo img{height: 100%}
