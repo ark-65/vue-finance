@@ -1,21 +1,14 @@
 <template>
   <div id="app">
-    <!--<div class="content">
-      <router-link to="/goods">商品</router-link>
-      <router-link to="/ratings">评论</router-link>
-      <router-link to="/seller">商家</router-link>
-    </div>
-    <router-view></router-view>-->
-    <Login/>
+    <Head/>
   </div>
 </template>
 
 <script>
-import Login from './components/login'
+import Head from './layouts/header/Head'
 export default {
-  name: 'App',
   components: {
-    Login
+    Head
   }
 }
 </script>
